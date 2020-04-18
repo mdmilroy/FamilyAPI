@@ -16,6 +16,7 @@ using Microsoft.Owin.Security.OAuth;
 using API.Models;
 using API.Providers;
 using API.Results;
+using Data;
 
 namespace API.Controllers
 {
