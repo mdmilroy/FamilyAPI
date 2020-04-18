@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using API.Providers;
 using API.Models;
+using Data;
 
 namespace API
 {

@@ -5,7 +5,6 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.AspNet.Identity.Owin;
 
 namespace Data
 {
@@ -33,7 +32,7 @@ namespace Data
             return new ApplicationDbContext();
         }
 
-        public DbSet<Family> Families { get; set; }
+        public DbSet<Person> People { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
