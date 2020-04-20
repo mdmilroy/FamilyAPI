@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -19,6 +20,8 @@ namespace Models
         public string LastName { get; set; }
 
         [Required]
+        public Dictionary<Person, string> Relatives { get; set; }
+
         [Display(Name = "Birthday")]
         public DateTime Birthdate { get; set; }
     }

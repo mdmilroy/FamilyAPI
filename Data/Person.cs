@@ -48,6 +48,7 @@ namespace Data
         public string CurrentCity { get; set; }
         public string CurrentState { get; set; }
         public List<string> StatesLivedIn { get; set; }
+        public Dictionary<Person, string> Relatives { get; set; } // Person profile , "relationship"
 
     }
 }
